@@ -83,7 +83,6 @@ function ShopAll() {
             <option value="price-desc">Price: High to Low</option>
           </select>
         </div>
-        </div>
       </div>
 
       {sorted.length === 0 ? (
