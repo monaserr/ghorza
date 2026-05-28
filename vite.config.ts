@@ -11,6 +11,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
     tsConfigPaths(),
-    ...(process.env.NODE_ENV === "production" ? [cloudflare()] : []),
+    cloudflare(),
   ],
 });
